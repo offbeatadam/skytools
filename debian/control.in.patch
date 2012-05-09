@@ -1,0 +1,12 @@
+--- control.in.old	2012-05-09 10:48:28.000000000 -0500
++++ control.in	2012-05-09 10:48:41.000000000 -0500
+@@ -54,9 +54,6 @@
+ Package: postgresql-PGVERSION-pgq3
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-PGVERSION
+-Provides: skytools-modules
+-Conflicts: skytools-modules-PGVERSION
+-Replaces: skytools-modules-PGVERSION
+ Description: Skype tools for PostgreSQL replication, londiste and PGQ
+  This is the PGQ extension used by Skype replication, londiste. It consists
+  of PL/pgsql, and C code in database.
